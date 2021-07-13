@@ -1,0 +1,14 @@
+import React, { createContext, useState } from "react";
+
+export const BookContext = createContext();
+
+const BookContextProvider = (props) => {
+    useState([
+        {title:"name of the world", id=1},
+        {title:"nsaame of the world", id=2},
+        {title:"3 of the world", id=3},
+        {title:"na4me of the world", id=1},
+        {title:"5 of the world", id=1},
+    ])
+    return
+};
