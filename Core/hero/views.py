@@ -40,7 +40,7 @@ class ItemVenderView(viewsets.ModelViewSet):
     serializer_class = ItemSerializer
     queryset = Item.objects.all()
 
-    def get_queryset(self, *args,**kwargs):
+    def get_queryset(self, *args, **kwargs):
         queryset = Item.objects.filter(vendor=self.request.query_params['vendor_pk'])
         return queryset
 
