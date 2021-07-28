@@ -1,7 +1,0 @@
-version: "3.4"
-services:
-  web:
-    build: .
-    command: pythomanage.py runserver 0.0.0.0:8000
-    ports:
-      - 8000:8000
