@@ -22,7 +22,6 @@ CATEGORY_CHOICES = [
     ("Alcohol", "Alcohol"),
     ("Food", "Food"),
     ("Snacks", "Snacks"),
-
 ]
 
 class Item(models.Model):

@@ -24,7 +24,11 @@ SECRET_KEY = '0twd8$0%&rph)!$mv^4t%)pxupwjvy2^27qzwh8!a0r_d0_)n%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "boozercartcore.azurewebsites.net",
+    "localhost",
+    "127.0.0.1"
+]
 
 # Application definition
 
@@ -132,6 +136,9 @@ REST_FRAMEWORK = {
     ]
 }
 CORS_ORIGIN_WHITELIST = [
+    'https://boozercartcore.azurewebsites.net',
+    'http://boozercart.com',
+    'https://boozercart.com',
     'http://localhost:3000',
     'http://localhost:3001'
 ]

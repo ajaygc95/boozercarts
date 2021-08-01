@@ -10,6 +10,7 @@ class StringSerializer(serializers.StringRelatedField):
         return data
 
 class TodoSerializer(serializers.ModelSerializer):
+
     class Meta:
         model = Todo
         fields = ('id', 'title', 'description', 'completed', 'cover')
@@ -20,7 +21,7 @@ class ItemSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Item
-        fields = ("id", 'slug', "title", "price", "category", "quantity", "picture",'vendor')
+        fields = ('id', "slug", "title", "price", "category", "quantity", "picture", "vendor")
 
 
 class OrderItemSerializers(serializers.ModelSerializer):

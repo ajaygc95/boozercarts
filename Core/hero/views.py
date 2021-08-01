@@ -21,7 +21,6 @@ from django.views.decorators.csrf import csrf_exempt
 from django.core import serializers
 import stripe
 
-stripe.api_key = 'sk_test_51JBpqhLc7vwlsP10xMbjatSsEtgdhGg2johrzEZqvinCVo3uzF6sv0CudLKaAbxWJRuQ7zFwZr4YLxJttDsV9PY000HUKyyiM8'
 
 class TodoView(viewsets.ModelViewSet):
     serializer_class = TodoSerializer
@@ -46,24 +45,27 @@ class ItemVenderView(viewsets.ModelViewSet):
 
 
 class ItemView(viewsets.ModelViewSet):
+
     permission_classes = [permissions.AllowAny]
     serializer_class = ItemSerializer
     queryset = Item.objects.all()
 
-
-    def post(self, request, *args, **kwargs):
+    def create(self, request, *args, **kwargs):
+        vendor = Todo.objects.get(id = request.data['vendor_pk'])
         price = request.data['price']
         title = request.data['title']
         category = request.data['category']
         quantity = request.data['quantity']
         picture = request.data['picture']
-
+        
         Item.objects.create(
+            vendor = vendor,
             title=title,
-            cover=price,
+            price=price,
             category=category,
             quantity=quantity,
             picture=picture
+        
         )
         return HttpResponse({'message': "created"}, status=200)
 

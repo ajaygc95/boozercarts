@@ -5,93 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9025d31-c2ee-4fe7-b729-fda8020d2cc6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.debug.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/galamart_sell.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/galamart_sell.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozecart/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/boozecart/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozecart/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/boozecart/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozecart/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozecart/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozecart/src/components/HomeFeed/HomeFeed.element.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozecart/src/components/HomeFeed/HomeFeed.element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozecart/src/components/HomeFeed/HomeFeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozecart/src/components/HomeFeed/HomeFeed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozecart/src/components/Login/useSignInForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozecart/src/components/Login/useSignInForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozecart/src/components/NavBar/Navbar.element.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozecart/src/components/NavBar/Navbar.element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozecart/src/components/NavBar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozecart/src/components/NavBar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozecart/src/components/UserAuth/RegisterUser.element.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozecart/src/components/UserAuth/RegisterUser.element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozecart/src/components/UserAuth/RegisterUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozecart/src/components/UserAuth/RegisterUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozecart/src/components/ValidatedLogin/FormSignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozecart/src/components/ValidatedLogin/FormSignUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozecart/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozecart/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozecart/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozecart/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Accounts/Register/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Accounts/Register/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Accounts/SignIn/Login.element.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Accounts/SignIn/Login.element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Accounts/SignIn/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Accounts/SignIn/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/AddItem/AddItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/AddItem/AddItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Cart/Cart.element.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Cart/Cart.element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Cart/Cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Checkout/Checkout.element.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Checkout/Checkout.element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Checkout/CheckoutPay.element.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Checkout/CheckoutPay.element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Context/Action/Action.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Context/Action/Action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Context/AuthContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Context/AuthContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Context/Reducer/Reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/Context/Reducer/Reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/DetailStore/DetailStore.element.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/DetailStore/DetailStore.element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/DetailStore/DetailStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/DetailStore/DetailStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/DetailStore/ItemListComponent/ItemList.element.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/DetailStore/ItemListComponent/ItemList.element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/DetailStore/ItemListComponent/ItemList.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/DetailStore/ItemListComponent/ItemList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/HomePage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/HomePage/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/HomePage/Homepage.element.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/HomePage/Homepage.element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/NavBar/NavBar.element.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/NavBar/NavBar.element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/NavBar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/components/NavBar/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/pages/DetailStore/DetailStorePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/boozercarts/BoozerCart/boozercart/src/pages/DetailStore/DetailStorePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/galamart_sell/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/galamart_sell/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galamart_sell/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/galamart_sell/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hero/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/hero/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hero/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hero/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hero/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/hero/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hero/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hero/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hero/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hero/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/components/About.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/components/Button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/components/Button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/components/Hero/HereElement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/components/Hero/HeroPage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/components/Hero/HeroPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/components/ItemDetail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/components/MenuItems.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/components/Modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/components/Nav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/components/Nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/components/NavBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/components/Navbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/components/Newnav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/components/Shop.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/components/Shop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/videos/Video.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactfrontend/src/videos/alcohol2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/boozercart" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/boozercart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DS and Algo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
