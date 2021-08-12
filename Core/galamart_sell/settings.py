@@ -26,6 +26,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "boozercartcore.azurewebsites.net",
+    "maps.googleapis.com",
     "localhost",
     "127.0.0.1"
 ]
